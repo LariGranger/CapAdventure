@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--MENU-->
+    <nav>
+        <div class="container">
+            <a href="#">
+                <p>CapAdventure</p>
+            </a>
+            <div class="container">
+                <a class="menu" href="#">Home</a>
+                <a class="menu" href="#principal">Sobre</a>
+                <a class="menu" href="#projeto">O projeto</a>
+                <a class="menu" href="#contatos">Fale Conosco</a>
+        </div>
+    </nav>
+
+    <!--SECTION SOBRE-->
+    <section id="principal">
+        <h1>CapAdventure</h1>
+        <div class="container">
+            <p>CapAdventure é uma empresa de turismo que tem como objetivo levar as pessoas para conhecerem os lugares mais incríveis de Braislia.</p>
+            <img src="img/hYb0ta.jpg" alt="">
+        </div>
+    </section>
+    <!--SECTION PROJETO-->
+    <section id="projeto">
+        <h2>O projeto</h2>
+        <p>O projeto surgiu atraves de sndjsfshgfihfgsdhgiurehgyreiug Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, sed dolorem. Quidem esse repellendus dignissimos quas cumque facilis vero animi quae suscipit tenetur reiciendis similique, voluptas nam. Quis, tempora voluptatibus.</p>
+    </section>
+
+    <!--SECTION CONTATO-->
+    <section id="contatos">
+        <h2>Fale Conosco</h2>
+        <h3>Deixe sua mensagem e entraremos em contato.</h3>
+
+        <form name="" method="" action="">
+            <label for="nome">Nome:</label>
+            <input id="nome" type="text" name="nome" placeholder="Nome Completo" required autofocus>
+
+            <label for="email">E-mail:</label>
+            <input id="email" type="email" name="email" placeholder="user@email.com">
+
+            <label for="celular">Celular:</label>
+            <input id="celular" type="tel" name="celular" placeholder="(99)99999-9999"
+                pattern="^\(?\d{2}\)\d{5}[-\s]\d{4}.*?$">
+
+            <label for="nivel">Assunto:</label>
+            <select name="assunto" id="assunto">
+                <option value="">Select</option>
+                <option value="trilheiro">Sou trilheiro</option>
+                <option value="proprietario">Sou proprietário</option>
+                <option value="duvidas">Dúvidas</option>
+                <option value="sugestões">Sugestões</option>
+            </select>
+
+            <label for="msg">Mensagem:</label>
+
+            <textarea name="msg" id="msg"></textarea>
+
+            <div class="container">
+
+                <input type="submit" name="btn_enviar" value="ENVIAR">
+                <input type="reset" name="btn_cancelar" value="CANCELAR">
+            </div>
+        </form>
+</body>
+</html>
